@@ -57,3 +57,20 @@ function studentMsg(totalScores, studentScore) {
 
 }
 console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
+
+
+//student message 
+
+function studentMsg(totalScores, studentScore) {
+  if(getGrade(studentScore) !== "F"){
+    let pass = "Class average: " + getAverage(totalScores) + ". Your grade: " + getGrade(studentScore) + ". You passed the course.";
+ return pass;
+  }
+  else {
+    let fail = "Class average: " + getAverage(totalScores) + ". Your grade: " + getGrade(studentScore) + ". You failed the course."
+ return fail;
+  }
+}
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
+console.log(studentMsg([56, 23, 89, 42, 75, 11, 68, 34, 91, 19], 100));
+
