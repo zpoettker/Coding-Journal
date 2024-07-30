@@ -11,3 +11,5 @@ console.log(i+1)
 }
 
 log: 1 2 3 4 5 6 7 8 9 10
+
+I am now learning Javascript integration with HTML, and have to alter html elements with Javascript
