@@ -46,3 +46,14 @@ function getGrade(score) {
 console.log(getGrade(96));
 console.log(getGrade(82));
 console.log(getGrade(56));
+
+//passing score
+
+function hasPassingGrade(score) {
+  return getGrade(score) !== "F";
+}
+
+function studentMsg(totalScores, studentScore) {
+
+}
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
