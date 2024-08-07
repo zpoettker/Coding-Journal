@@ -14,4 +14,4 @@ log: 1 2 3 4 5 6 7 8 9 10
 
 I am now learning Javascript integration with HTML, and have to alter html elements with Javascript
 
-So far, I think I have a decent grasp on functions, variables, arrays, objects,
+So far, I think I have a decent grasp on functions, variables, arrays, objects, loops, conditions, and a handful of concepts in html and css.
